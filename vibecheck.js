@@ -1,6 +1,6 @@
 
 function checkVibe() {
-    var random_boolean = Math.random() >= 0.5;
+    var random_boolean = Math.random() >= 0.3;
     console.log(random_boolean);
     if (random_boolean) {
         document.getElementById("type").innerHTML = "You have passed the vibe check";
